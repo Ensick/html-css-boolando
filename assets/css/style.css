@@ -19,6 +19,10 @@ html{
     display: flex;
  }
 
+ .f-wrap{
+    flex-wrap: wrap;
+ }
+
  .justy-s-between{
     justify-content: space-between;
  }
@@ -90,7 +94,7 @@ main{
 
 .sconto{
     left: 0;
-    bottom: 175px;
+    bottom: 75px;
     color: white;
 }
 
@@ -112,6 +116,19 @@ main{
 .cross{
     text-decoration: line-through;
 }
+
+.card{
+    margin-bottom: 6rem;
+    width: 500px;
+    height: 700px;
+}
+
+.dimension{
+    width: 100%;
+}
+
+
+
 
 
 
