@@ -3,3 +3,116 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+html{
+    font-size: 1.5rem;
+}
+
+/* Utility */
+
+ .width-margin-center80{
+    width: 80%;
+    margin: auto;
+ }
+
+ .flex{
+    display: flex;
+ }
+
+ .justy-s-between{
+    justify-content: space-between;
+ }
+
+ .justy-s-around{
+    justify-content: space-around;
+ }
+
+ .align-items-center{
+    align-items: center;
+ }
+
+.position-rel{
+    position: relative;
+}
+
+.position-absolute{
+    position: absolute;
+}
+ 
+
+/* Utility */
+
+
+
+/* HEADER */
+
+header{
+    background-color: #FF6900;
+    color: white;
+    box-shadow: 0 1px 7px black;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+}
+
+nav{
+    padding: 1rem 0;
+}
+
+nav div > span{
+    margin: 0 0.2rem;
+    cursor: pointer;
+}
+
+nav div > img{
+    width: 8rem;
+    cursor: pointer;
+}
+
+nav div > i{
+    margin: 0 0.2rem;
+    cursor: pointer;
+}
+
+/* MAIN */
+
+main{
+   margin: 7rem 0;
+}
+
+.heart{
+    top: 35px;
+    right: 35px;
+    font-size: 1.3rem;
+}
+
+.sconto{
+    left: 0;
+    bottom: 175px;
+    color: white;
+}
+
+.sconto span:first-child{
+    padding: 0.2rem 0.5rem;
+    background-color: red;
+}
+
+.sconto span:last-child{
+    padding: 0.2rem 0.5rem;
+    background-color: green;
+}
+
+.color-red{
+    color: red;
+    font-weight: bold;
+}
+
+.cross{
+    text-decoration: line-through;
+}
+
+
+
+
