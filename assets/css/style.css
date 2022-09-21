@@ -118,13 +118,49 @@ main{
 }
 
 .card{
-    margin-bottom: 6rem;
-    width: 500px;
-    height: 700px;
+    margin-bottom: 2rem;
 }
 
-.dimension{
+.conteiner{
+    width: 500px;
+    height: 722px;
+}
+
+.img1{
     width: 100%;
+}
+
+.hidden{
+    display: none;
+    width: 100%;
+}
+
+/* FOOTER */
+
+footer{
+    background-color: #1A1A1A;
+    color: white;
+}
+
+.footer-box{
+    padding: 2rem 0;
+}
+
+footer div > h3{
+    font-size: 1.1;
+    margin-bottom: 0.5rem;
+    cursor: pointer;
+}
+
+footer div > span{
+    margin-right: 0.5rem;
+    cursor: pointer;
+}
+
+footer div > i {
+    font-size: 1rem;
+    cursor: pointer;
+    margin-right: 0.5rem;
 }
 
 
